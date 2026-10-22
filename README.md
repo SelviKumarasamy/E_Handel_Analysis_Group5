@@ -89,7 +89,7 @@ Möjliga avvikelser och oväntade mönster i försäljningsdata.
 
 ## Grupparbete och samarbete
 
-Projektet genomförs gemensamt av sex gruppmedlemmar. Arbetet delas upp så att varje medlem ansvarar för en separat analysuppgift eller ett specifikt nyckeltal.
+Projektet genomförs gemensamt av sex gruppmedlemmar. Arbetet delas upp så att varje medlem ansvarar för en separat ett specifikt nyckeltal.
 
 Vi använder Git och GitHub för versionshantering, koddelning och samarbete. En Kanban-tavla används för att planera, fördela och följa upp arbetsuppgifter.
 
