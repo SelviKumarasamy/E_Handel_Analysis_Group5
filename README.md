@@ -1,13 +1,13 @@
-##                                         E-Hadelsanalysis
+#                                        E-Hadelsanalysis
 
 
-##Project beskrivning
+## Project beskrivning
 
 I det här projektet arbetar vi med försäljningsdata för att identifiera användbara mönster och ta fram värdefulla insikter för ledningen inför nästa kampanjperiod.
 
 Projektet är en gruppuppgift där vi använder Python för att analysera data, skapa funktioner och visualisera försäljningsresultat.
 
-##Projektmål
+## Projektmål
 
 1. Målet med projektet är att besvara följande frågor:
 2. Identifiera vilka produktkategorier som genererar högst intäkt.
@@ -17,49 +17,65 @@ Projektet är en gruppuppgift där vi använder Python för att analysera data, 
 6. Upptäcka ovanliga värden eller oväntade försäljningsmönster.
 
 
-##GitHub-repository
+## GitHub-repository
 
 https://github.com/SelviKumarasamy/E_Handel_Analysis_Group5.git
 
+## Projektstruktur
 
-##Directory structur
+├── data/
+│   └── ecommerce_sales.csv
+│
+├── notebooks/
+│   └── report.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── io_utils.py
+│   ├── metrics.py
+│   └── viz.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 
-##Dataset
+## Dataset
 
-Projektet använder datasetet ecommerce_sales.csv.
+Projektet använder datasetet "ecommerce_sales.csv".
 
-##Teknik och verktyg
+## Teknik och verktyg
 
-Python – Programmering och dataanalys.
+Python 3.14.7 – Programmering och dataanalys.
 Pandas – Bearbetning, sammanställning och analys av data.
 Matplotlib – Visualisering av försäljningsresultat.
 Jupyter Notebook – Interaktiv analys och rapportering.
 Git och GitHub – Versionshantering, koddelning och samarbete.
 
-##Installation och start
+## Installation och start
 
-#Steg 1: Klona projektet
+### Steg 1: Klona projektet
 
 git clone https://github.com/SelviKumarasamy/E_Handel_Analysis_Group5.git
+
 cd E_Handel_Analysis_Group5
 
-Steg 2: Skapa en virtuell miljö
+### Steg 2: Skapa en virtuell miljö
 
 python -m venv .venv
 
-Steg 3: Aktivera den virtuella miljön
+### Steg 3: Aktivera den virtuella miljön
 
 .venv\Scripts\activate
 
-Steg 4: Installera beroenden
+### Steg 4: Installera beroenden
 
 Installera  Python-bibliotek som anges i requirements.txt
 
 python -m pip install -r requirements.txt
 
 
-##Nyckeltal (KPI)
+## Nyckeltal (KPI)
 
 Total intäkt.
 Totalt antal sålda enheter.
@@ -71,7 +87,7 @@ De tre produktkategorier som genererar högst intäkt.
 Möjliga avvikelser och oväntade mönster i försäljningsdata.
 
 
-##Grupparbete och samarbete
+## Grupparbete och samarbete
 
 Projektet genomförs gemensamt av sex gruppmedlemmar. Arbetet delas upp så att varje medlem ansvarar för en separat analysuppgift eller ett specifikt nyckeltal.
 
@@ -81,7 +97,7 @@ Varje gruppmedlem ansvarar för att utveckla, testa och dokumentera sin del av a
 
 Vi strävar efter att skriva tydlig och återanvändbar kod genom att använda funktioner och separata Python-moduler. Detta gör projektet enklare att testa, underhålla och vidareutveckla.
 
-##Rekommendationer
+## Rekommendationer
 
 
 
