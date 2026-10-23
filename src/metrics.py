@@ -18,3 +18,17 @@ def order_value_spread(df: pd.DataFrame) -> pd.Series:
         "75 %": revenue.quantile(0.75),
         "Max": revenue.max(),
     }).round(2)
+
+
+# Intäkt per stad
+
+def intäkt_per_stad(df):
+     return(
+        df.groupby("city")["revenue"]
+        .sum()
+        .sort_values(ascending = False)
+    )
+
+
+def ordervarden(df):
+    return df.groupby("order_id")["revenue"].sum()
