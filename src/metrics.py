@@ -35,10 +35,10 @@ def ordervarden(df):
     return df.groupby("order_id")["revenue"].sum()
 
 
-def hitta_avikelser(df, kolumner =None):
+def hitta_avvikelser(df, kolumner = None):
 
     if kolumner is None:    
-        kolumner = ["price", "units", "revenue"]
+     kolumner = ["price", "units", "revenue"]
 
     sammanfattningar = []
     outlier_limit = {}
@@ -82,7 +82,7 @@ def hitta_avikelser(df, kolumner =None):
     sammanfattning = pd.DataFrame(sammanfattningar)
     return sammanfattning, outlier_limit, outlier_data
 
-def unika_avikelser(outlier_data):
+def unika_avvikelser(outlier_data):
      alla_avvikelser = pd.concat(outlier_data.values()).drop_duplicates()
 
      print(f"Totalt antal unika rader med avvikelser: {len(alla_avvikelser)}")
