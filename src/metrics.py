@@ -45,7 +45,7 @@ def hitta_avikelser(df, kolumner =None):
     outlier_data = {}
 
     for kolumn in kolumner:
-    values = df[kolumn].dropna().to_numpy()
+     values = df[kolumn].dropna().to_numpy()
 
     minimum = np.min(values)
     q1 = np.percentile(values, 25)
@@ -83,9 +83,7 @@ def hitta_avikelser(df, kolumner =None):
     return sammanfattning, outlier_limit, outlier_data
 
 def unika_avikelser(outlier_data):
-     alla_avvikelser = pd.concat(
-     [outlier_data[kolumn] for kolumn in kolumner]
-     ).drop_duplicates()
+     alla_avvikelser = pd.concat(outlier_data.values()).drop_duplicates()
 
      print(f"Totalt antal unika rader med avvikelser: {len(alla_avvikelser)}")
 
