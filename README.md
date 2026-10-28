@@ -9,9 +9,11 @@ Projektet är en gruppuppgift där vi använder Python för att analysera data, 
 
 ## Projektmål
 
-1. Målet med projektet är att besvara följande frågor:
-2. Identifiera vilka produktkategorier som genererar högst intäkt.
-3. Identifiera vilka städer som genererar högst intäkt.Analysera försäljningstrender över tid.
+ Målet med projektet är att besvara följande frågor:
+
+1. Identifiera vilka produktkategorier som genererar högst intäkt.
+2. Identifiera vilka städer som genererar högst intäkt.
+3. Analysera försäljningstrender över tid.
 4. Beräkna och förstå det genomsnittliga ordervärdet (AOV).
 5. Identifiera de tre produktkategorier som genererar högst intäkt.
 6. Upptäcka ovanliga värden eller oväntade försäljningsmönster.
@@ -23,6 +25,7 @@ https://github.com/SelviKumarasamy/E_Handel_Analysis_Group5.git
 
 ## Projektstruktur
 
+```text
 ├── data/
 │   └── ecommerce_sales.csv
 │
@@ -38,20 +41,21 @@ https://github.com/SelviKumarasamy/E_Handel_Analysis_Group5.git
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
+```
 
 ## Dataset
 
-Projektet använder datasetet "ecommerce_sales.csv".
+Projektet använder datasetet (data/ecommerce_sales.csv)
 
 ## Teknik och verktyg
 
-Python 3.14.7 – Programmering och dataanalys.
-Pandas – Bearbetning, sammanställning och analys av data.
-Matplotlib – Visualisering av försäljningsresultat.
-Jupyter Notebook – Interaktiv analys och rapportering.
-Git och GitHub – Versionshantering, koddelning och samarbete.
-
+- **Python 3.14.7** – Programmering och dataanalys.
+- Pandas – Datahantering och analys av försäljningsdata.
+- NumPy – Beräkningar och statistisk analys.
+- Matplotlib – Visualisering av försäljningsresultat.
+- Jupyter Notebook – Interaktiv analys och rapportering.
+- Git och GitHub – Versionshantering, koddelning och samarbete.
+ 
 ## Installation och start
 
 ### Steg 1: Klona projektet
@@ -77,15 +81,27 @@ python -m pip install -r requirements.txt
 
 ## Nyckeltal (KPI)
 
-Total intäkt.
-Totalt antal sålda enheter.
-Intäkt per produktkategori.
-Intäkt per stad.
-Försäljningsutveckling över tid.
-Genomsnittligt ordervärde (Average Order Value, AOV).
-De tre produktkategorier som genererar högst intäkt.
-Möjliga avvikelser och oväntade mönster i försäljningsdata.
+- **Total intäkt:**  3,502,767.23 kr
+- **Totalt antal sålda enheter:**  7463
+- **Antal unika ordrar:**  2500
+- **Genomsnittligt ordervärde:**  1 401,11 kr
 
+## Figurer
+
+## Slutsatsar från Analyserad Data
+
+- Analysen visar att **Electronics** genererar högst intäkt,
+med en total intäkt på **1 364 228,07 kr**.
+
+- De tre kategorier som genererar högst intäkt är
+**Electronics**, **Sports** och **Clothing**.
+
+- **Stockholm** har den högsta totala intäkten i det analyserade
+materialet med **1 227 201,94 kr**.
+
+- Intäkten är högst under **Januari, med 664 083,32 kr** och lägst under **Mars, med 487 602,00 kr**.
+
+- Electronics är kategorin med högst total intäkt i samtliga fem städer. Januari är den bästa månaden för Electronics i Göteborg, Malmö och Stockholm. I Uppsala är det februari och i Västerås juni.
 
 ## Grupparbete och samarbete
 
