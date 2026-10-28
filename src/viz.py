@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Intäkt per stad
+
 def plot_intakt_per_stad(stads_intäkt):
     stads_intäkt.sort_values().plot(
         kind="barh",
@@ -13,6 +15,7 @@ def plot_intakt_per_stad(stads_intäkt):
     plt.tight_layout()
     plt.show()
 
+# Intäkt per katogori
 def plot_intäkt_per_kategori(cat_rev):
     plt.bar(x = cat_rev.index, height = cat_rev.values)
     plt.xlabel("Kategori")
@@ -30,6 +33,22 @@ def plot_top3_categories(top3):
     plt.xticks(rotation=0)
     plt.tight_layout()
     plt.show()
+
+def plot_intakt_stad_kategori(intakt_stad_kategori):
+    """Visas total intäkt per kategori och stad i ett stapeldiagram."""
+
+    intakt_stad_kategori.plot(
+        kind="bar",
+        figsize=(12, 6)
+    )
+
+    plt.title("Total intäkt per kategori och stad")
+    plt.xlabel("Stad")
+    plt.ylabel("Intäkt (kr)")
+    plt.xticks(rotation=0)
+    plt.legend(title="Kategori")
+    plt.tight_layout()
+    plt.show()    
 
 # Skapa linjediagram över totala intäkter per vecka.
 
