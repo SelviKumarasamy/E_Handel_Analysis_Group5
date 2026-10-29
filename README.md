@@ -129,5 +129,5 @@ Vi strävar efter att skriva tydlig och återanvändbar kod genom att använda f
 
 ## Rekommendationer
 
-
+Se rekommendationer i slutet av report.
 
