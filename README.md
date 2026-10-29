@@ -105,6 +105,20 @@ materialet med **1 227 201,94 kr**.
 
 ## Grupparbete och samarbete
 
+Fråga 1 - Anton Ahnstedt
+
+Fråga 2 - Selvi Kumarasamy
+
+Fråga 3 - Victor Lundström
+
+Fråga 4 - Emma Lundbäck
+
+Fråga 5 - Jena Greos
+
+Fråga 6 -  Alla tillsammans
+
+Vi hörde av oss till William, fick inget svar under dessa veckor. Så vi har exkluderat William under arbetets gång.
+
 Projektet genomförs gemensamt av sex gruppmedlemmar. Arbetet delas upp så att varje medlem ansvarar för en separat ett specifikt nyckeltal.
 
 Vi använder Git och GitHub för versionshantering, koddelning och samarbete. En Kanban-tavla används för att planera, fördela och följa upp arbetsuppgifter.
