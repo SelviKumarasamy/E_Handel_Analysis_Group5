@@ -86,7 +86,6 @@ python -m pip install -r requirements.txt
 - **Antal unika ordrar:**  2500
 - **Genomsnittligt ordervärde:**  1 401,11 kr
 
-## Figurer
 
 ## Slutsatsar från Analyserad Data
 
